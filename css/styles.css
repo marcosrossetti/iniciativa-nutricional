@@ -216,3 +216,7 @@ ion-icon.flecha {
   opacity: 0;
   transition: opacity .25s linear, visibility .1s linear .5s;
 }
+
+.pointer {
+  cursor: pointer;
+}
