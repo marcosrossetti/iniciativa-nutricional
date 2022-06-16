@@ -131,14 +131,14 @@ header.masthead h1 {
   }
 }
 
-#galeria .container-fluid, #galeria .container-sm, #galeria .container-md, #galeria .container-lg, #galeria .container-xl {
+#ayr .container-fluid, #ayr .container-sm, #ayr .container-md, #ayr .container-lg, #ayr .container-xl {
   max-width: 1920px;
 }
-#galeria .container-fluid .portfolio-box, #galeria .container-sm .portfolio-box, #galeria .container-md .portfolio-box, #galeria .container-lg .portfolio-box, #galeria .container-xl .portfolio-box {
+#ayr .container-fluid .portfolio-box, #ayr .container-sm .portfolio-box, #ayr .container-md .portfolio-box, #ayr .container-lg .portfolio-box, #ayr .container-xl .portfolio-box {
   position: relative;
   display: block;
 }
-#galeria .container-fluid .portfolio-box .portfolio-box-caption, #galeria .container-sm .portfolio-box .portfolio-box-caption, #galeria .container-md .portfolio-box .portfolio-box-caption, #galeria .container-lg .portfolio-box .portfolio-box-caption, #galeria .container-xl .portfolio-box .portfolio-box-caption {
+#ayr .container-fluid .portfolio-box .portfolio-box-caption, #ayr .container-sm .portfolio-box .portfolio-box-caption, #ayr .container-md .portfolio-box .portfolio-box-caption, #ayr .container-lg .portfolio-box .portfolio-box-caption, #ayr .container-xl .portfolio-box .portfolio-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,16 +154,16 @@ header.masthead h1 {
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#galeria .container-fluid .portfolio-box .portfolio-box-caption .project-category, #galeria .container-sm .portfolio-box .portfolio-box-caption .project-category, #galeria .container-md .portfolio-box .portfolio-box-caption .project-category, #galeria .container-lg .portfolio-box .portfolio-box-caption .project-category, #galeria .container-xl .portfolio-box .portfolio-box-caption .project-category {
+#ayr .container-fluid .portfolio-box .portfolio-box-caption .project-category, #ayr .container-sm .portfolio-box .portfolio-box-caption .project-category, #ayr .container-md .portfolio-box .portfolio-box-caption .project-category, #ayr .container-lg .portfolio-box .portfolio-box-caption .project-category, #ayr .container-xl .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#galeria .container-fluid .portfolio-box .portfolio-box-caption .project-name, #galeria .container-sm .portfolio-box .portfolio-box-caption .project-name, #galeria .container-md .portfolio-box .portfolio-box-caption .project-name, #galeria .container-lg .portfolio-box .portfolio-box-caption .project-name, #galeria .container-xl .portfolio-box .portfolio-box-caption .project-name {
+#ayr .container-fluid .portfolio-box .portfolio-box-caption .project-name, #ayr .container-sm .portfolio-box .portfolio-box-caption .project-name, #ayr .container-md .portfolio-box .portfolio-box-caption .project-name, #ayr .container-lg .portfolio-box .portfolio-box-caption .project-name, #ayr .container-xl .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
-#galeria .container-fluid .portfolio-box:hover .portfolio-box-caption, #galeria .container-sm .portfolio-box:hover .portfolio-box-caption, #galeria .container-md .portfolio-box:hover .portfolio-box-caption, #galeria .container-lg .portfolio-box:hover .portfolio-box-caption, #galeria .container-xl .portfolio-box:hover .portfolio-box-caption {
+#ayr .container-fluid .portfolio-box:hover .portfolio-box-caption, #ayr .container-sm .portfolio-box:hover .portfolio-box-caption, #ayr .container-md .portfolio-box:hover .portfolio-box-caption, #ayr .container-lg .portfolio-box:hover .portfolio-box-caption, #ayr .container-xl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
 

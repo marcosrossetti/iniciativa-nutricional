@@ -31,7 +31,7 @@
     $(window).scroll(navbarCollapse);
 
     // Magnific popup calls
-    $('#galeria').magnificPopup({
+    $('#ayr').magnificPopup({
         delegate: 'a',
         type: 'image',
         tLoading: 'Loading image #%curr%...',
