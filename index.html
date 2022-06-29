@@ -122,46 +122,40 @@
         <div id="ayr">
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
-                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" data-toggle="modal" data-target="#ayrModal">
+                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" onclick="modalGaleria(1);" data-toggle="modal" data-target="#ayrModal">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.png" alt="..." />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">cat1</div>
-                            <div class="project-name">Prueba 1</div>
+                            <div class="project-name">Los alimentos y sus colores</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" data-toggle="modal" data-target="#ayrModal">
+                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" onclick="modalGaleria(2);" data-toggle="modal" data-target="#ayrModal">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.png" alt="..." />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">cat2</div>
-                            <div class="project-name">Prueba 2</div>
+                            <div class="project-name">Crea una ensalada en 7 simples pasos</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" data-toggle="modal" data-target="#ayrModal">
+                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" onclick="modalGaleria(3);" data-toggle="modal" data-target="#ayrModal">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.png" alt="..." />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">cat3</div>
-                            <div class="project-name">Prueba 3</div>
+                            <div class="project-name">Hábitos saludables</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" data-toggle="modal" data-target="#ayrModal">
+                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" onclick="modalGaleria(4);" data-toggle="modal" data-target="#ayrModal">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.png" alt="..." />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">cat4</div>
-                            <div class="project-name">Prueba 4</div>
+                            <div class="project-name">Carrot cake</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" data-toggle="modal" data-target="#ayrModal">
+                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" onclick="modalGaleria(5);" data-toggle="modal" data-target="#ayrModal">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.png" alt="..." />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">cat5</div>
-                            <div class="project-name">Prueba 5</div>
+                            <div class="project-name">Sustitutos del huevo</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" data-toggle="modal" data-target="#ayrModal">
+                    <div class="col-lg-4 col-sm-6 portfolio-box pointer" onclick="modalGaleria(6);" data-toggle="modal" data-target="#ayrModal">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.png" alt="..." />
                         <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">cat6</div>
-                            <div class="project-name">Prueba 6</div>
+                            <div class="project-name">Hot cakes de banana y avena</div>
                         </div>
                     </div>
                 </div>
@@ -170,15 +164,15 @@
 
         <!-- Modal -->
         <div class="modal fade" id="ayrModal" tabindex="-1" aria-labelledby="ayrModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="ayrModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="ayrModalLabel">Titulo</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body text-justify">
                         
                     </div>
                     <div class="modal-footer">
@@ -370,6 +364,36 @@
                     $('.desplegar').text("Seguir leyendo");
                 }
             });
+
+            function modalGaleria(cat) {
+                switch(cat) {
+                    case 1:
+                        $('.modal-title').html('Los alimentos y sus colores');
+                        $('.modal-body').html('<strong>Rojo:</strong> las frutas y verduras rojas, como tomates, frutillas… contienen vitamina C, vitamina A, potasio y antioxidantes.<br><br><strong>Amarillo o Naranja:</strong> como zanahorias, duraznos, calabaza, ananá… están cargados de vitamina C, vitamina A y potasio. Además de estimular el sistema inmune y mejorar la visión.<br><br><strong>Blanco:</strong> como champiñones, cebollas, apio, banana… son buenas para el corazón, la digestión y ayudan a controlar los niveles de colesterol.<br><br><strong>Verde:</strong> significa altos niveles de potasio y vitamina K, protegen el corazón y ayudan en el proceso de coagulación de la sangre. Las frutas y verduras verdes también ayudan a mantener la salud de la vista, huesos y dientes fuertes. Las verduras de hoja verde de color más oscuro tienen la mayor concentración de antioxidantes, fibra y hierro.<br><br><strong>Azul o morado:</strong> como los arándanos, uvas moradas, pasas, berenjenas, aumentan la función del sistema urinario, de la memoria y promueven un envejecimiento saludable.');
+                        break;
+                    case 2:
+                        $('.modal-title').html('Crea una ensalada en 7 simples pasos');
+                        $('.modal-body').html('<strong>¡Te ahorrará tiempo y esfuerzo, el resultado será delicioso!</strong><br><br><strong>1 La Base.</strong><br>Elegí tu hoja favorita.<br><br><strong>2 Los vegetales verdes.</strong><br>Complementarios como el brócoli, pepino, apio, etc.<br><br><strong>3 Color.</strong><br>Aquí es donde tu ensalada se vuelve creativa y le añades todas esas cosas que te gustan y que le darán tu toque personal.<br><br><strong>4 Crocantes.</strong><br>Añade algo crocante como frutos secos (como nueces, o almendras), semillas (como chía, sésamo, lino, calabaza o cáñamo), cereales o cualquier alimento que le de un toque crocante.<br><br><strong>5 La proteína.</strong><br>La proteína puede ser de origen animal o vegetal como carnes, huevo atún o legumbres. Sólo algunos ejemplos.<br><br><strong>6 Los aderezos.</strong><br>Totalmente a gusto.<br><br><strong>7 Sabor Extra.</strong><br>Acá podés ser más que creativo/a!!! Agregá a tu ensalada algún queso o por que no alguna fruta.<br><br><strong>¡Ya tenés tu ensalada completa, nutritiva y deliciosa!</strong>');
+                        break;
+                    case 3:
+                        $('.modal-title').html('Hábitos saludables');
+                        $('.modal-body').html('<strong>¿Qué es un hábito saludable?</strong><br>Un hábito saludable es aquel comportamiento o conducta que realizamos y que afecta de forma positiva en nuestro bienestar físico, mental y social. En general, los hábitos saludables se refieren a la alimentación, a la higiene y al deporte.');
+                        break;
+                    case 4:
+                        $('.modal-title').html('Carrot cake');
+                        $('.modal-body').html('<strong>-</strong> zanahoria rallada 2 y 1/2 taza<br><strong>-</strong> harina leudante 1 taza<br><strong>-</strong> azúcar 1 taza<br><strong>-</strong> aceite 1/2 taza<br><strong>-</strong> huevos 2<br><strong>-</strong> esencia de vainilla.<br><br>Mezclar todos los ingredientes, poner en budinera enmantecada y enharinada y llevar a horno moderado 25-35 min. Otra opción es microondas por 9 minutos.<br><br><strong>Opción sin tacc:</strong> reemplazá la harina por premezcla y 1 cdta de polvo de hornear. Fijate bien que todos los ingredientes sean aptos y a disfrutar!!! Se puede decorar a gusto y así solito queda también muy delicioso!!');
+                        break;
+                    case 5:
+                        $('.modal-title').html('Sustitutos del huevo');
+                        $('.modal-body').html('<strong>¿Tenés que cocinar y te diste cuenta que no tenés huevos? Ahora te cuento cómo reemplazarlo.</strong><br><br><strong>Para preparaciones dulces:</strong> puré de ½ banana o 3 cdas de manteca de maní o Puré de ¼ de manzana.<br><br><strong>Preparaciones saladas:</strong> 1 cdta de agar-agar + 1 cda de agua o 1 cdta de semillas de chía + ¼ taza de agua o ¼ taza de tofu o 1 cda de bicarbonato de sodio + 1 cda de vinagre blanco o de manzana.<br><br>Recordá que cada opción es por 1 huevo, así que si necesitás más solo multiplicá la opción elegida por la cantidad de huevos que lleva tu receta y listo!!');
+                        break;
+                    case 6:
+                        $('.modal-title').html('Hot cakes de banana y avena');
+                        $('.modal-body').html('Pisar 1 banana, agregar 1 huevo, 1 sobrecito de edulcorante o 2 cdtas de azúcar.<br>Mezclar bien y agregar unas gotitas de esencia de vainilla, 1 cdta de polvo de hornear y avena, la cantidad va a depender de cuál de sus formas uses (harina, hojuelas, extra fina, etc).<br>Tiene que quedar una masa como para buñuelos y que se pueda manejar con cuchara. Poner en sartén antiadherente caliente un poco de la pasta por unos instantes, dar vuelta. Terminar de cocinar y disfrutar. Opcional acompañar con un chorrito de miel.');
+                        break;
+                }
+            }
+
         </script>
     </body>
 </html>
